@@ -23,7 +23,7 @@ frame_size: 400
 use_last_samples: True
 gpu: 1
 gradclip: 5
-init_epochs: 190-200
+init_epochs: 191-200
 init_model_path: /root/workspace/20260504_4M0A_TRG_STATE16_EXPAND4_SPECAUGTRUE_2500H/2_speakers/models
 input_transform: logmel_meannorm
 intermediate_loss_frameencoder: True

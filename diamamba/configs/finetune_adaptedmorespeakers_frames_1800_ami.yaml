@@ -30,8 +30,8 @@ intermediate_loss_frameencoder: True
 intermediate_loss_perceiver: True
 latents2attractors: weighted_average
 log_report_batches_num: 1000
-lr: 1e-6
-max_epochs: 400
+lr: 1e-5
+max_epochs: 500
 model_type: AttractorPerceiver
 n_attractors: 10
 n_blocks_attractors: 3

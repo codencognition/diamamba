@@ -31,7 +31,7 @@ intermediate_loss_perceiver: True
 latents2attractors: weighted_average
 log_report_batches_num: 1000
 lr: 1e-4
-max_epochs: 400
+max_epochs: 150
 model_type: AttractorPerceiver
 n_attractors: 10
 n_blocks_attractors: 3
@@ -42,15 +42,15 @@ n_sa_heads_attractors: 4
 n_xa_heads_attractors: 4
 norm_loss_per_spk: True
 num_frames: 1800
-num_speakers: 10
+num_speakers: 6
 num_workers: 4
 optimizer: adam
 # output_path: <output directory>
 pre_xa_heads: 4
 sampling_rate: 16000
-seed: 3
+seed: 5
 specaugment: False
-subsampling: 10
+subsampling: 5
 time_shuffle: False
 train_batchsize: 32
 # train_data_dir: <train Kaldi data directory>
@@ -64,13 +64,13 @@ use_pre_crossattention: True
 
 init_epochs: 91-100
 # init_model_path: /root/workspace/20260415_4M0A_TRG_STATE16_EXPAND4_2500H/2_speakers/models
-# init_model_path: /root/workspace/20260511_finetune_1to10spk/dr0p15_specaug_on/models
+init_model_path: /root/workspace/20260511_finetune_1to10spk/dr0p15_specaug_on/models
 
-init_epochs: 15-24
-init_model_path: /root/workspace/20260511_finetune_1to10spk/finetune_simulated_conv_dr0p15_specaug_on_1800/models
+# init_epochs: 15-24
+# init_model_path: /root/workspace/20260511_finetune_1to10spk/finetune_simulated_conv_dr0p15_specaug_on_1800/models
 
-train_features_dir: /root/workspace/der_scoring_talkbank_callhome/features_1800/batchsize1/train
-valid_features_dir: /root/workspace/der_scoring_talkbank_callhome/features_1800/batchsize1/dev
+train_features_dir: /root/workspace/der_scoring_talkbank_callhome/features_1800_seed_5/batchsize1/train
+valid_features_dir: /root/workspace/der_scoring_talkbank_callhome/features_1800_seed_5/batchsize1/dev
 # train_features_dir: /root/workspace/mel_features/10_SPEAKERS_maximum_10H/batchsize1/train
 # valid_features_dir: /root/workspace/mel_features/10_SPEAKERS_maximum_10H/batchsize1/dev
-output_path: /root/workspace/20260511_finetune_1to10spk/finetune_callhome_finetune_simulated_conv_dr0p15_specaug_on_1800_1800
+output_path: /root/workspace/20260511_finetune_1to10spk/finetune_callhome_finetune_simulated_conv_dr0p15_specaug_on_1800_seed_5

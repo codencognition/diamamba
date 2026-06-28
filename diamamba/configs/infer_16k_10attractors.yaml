@@ -35,8 +35,8 @@ num_frames: -1
 pre_xa_heads: 4
 rttms_dir: /root/workspace/bimamba_diaper_multi_infer/examples/10att_withoutFT
 sampling_rate: 16000
-seed: 5
-subsampling: 5
+seed: 3
+subsampling: 10
 time_shuffle: False
 threshold: 0.5
 use_frame_selfattention: True

@@ -30,8 +30,8 @@ intermediate_loss_frameencoder: True
 intermediate_loss_perceiver: True
 latents2attractors: weighted_average
 log_report_batches_num: 1000
-lr: 1e-6
-max_epochs: 750
+lr: 1e-5
+max_epochs: 150
 model_type: AttractorPerceiver
 n_attractors: 10
 n_blocks_attractors: 3
@@ -42,7 +42,7 @@ n_sa_heads_attractors: 4
 n_xa_heads_attractors: 4
 norm_loss_per_spk: True
 num_frames: 1800
-num_speakers: 7
+num_speakers: 8
 num_workers: 4
 optimizer: adam
 # output_path: <output directory>
@@ -63,10 +63,9 @@ use_pre_crossattention: True
 
 
 init_epochs: 91-100
-# init_model_path: /root/workspace/20260415_4M0A_TRG_STATE16_EXPAND4_2500H/2_speakers/models
-init_model_path: /root/workspace/20260511_finetune_1to10spk/dr0p15_specaug_on/models
-train_features_dir: /root/workspace/der_scoring_RAMC/features_1800/batchsize1/train
-valid_features_dir: /root/workspace/der_scoring_RAMC/features_1800/batchsize1/dev
+init_model_path: /workspace/models/dr0p15_specaug_on/models
+train_features_dir: /workspace/benchmarks/ramc/features_f1800/batchsize1/train
+valid_features_dir: /workspace/benchmarks/ramc/features_f1800/batchsize1/dev
 # train_features_dir: /root/workspace/mel_features/10_SPEAKERS_maximum_10H/batchsize1/train
 # valid_features_dir: /root/workspace/mel_features/10_SPEAKERS_maximum_10H/batchsize1/dev
-output_path: /root/workspace/20260511_finetune_1to10spk/finetune_RAMC_dr0p15_specaug_on_1800_500ep_1en6
+output_path: /workspace/models/ft_ramc_f1800

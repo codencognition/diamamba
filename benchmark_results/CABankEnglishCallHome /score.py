@@ -8,14 +8,14 @@ SRC_DIR   = "/workspace/diamamba/src"
 CONFIGS_DIR = "/workspace/diamamba/configs"
 
 # ── run name used for output naming (change freely between experiments) ──────
-RUN_NAME = "model_FT"
+RUN_NAME = "model_FT_new"
 
 # MODELS_PATH  = "/workspace/models/dr0p15_specaug_on/models"
 # EPOCHS = "91-100"
 # SUBSAMP = "10"
 
 MODELS_PATH  = "/workspace/models/ft_callhome_f1800/models"
-EPOCHS = "441-450"
+EPOCHS = "141-150"
 SUBSAMP = "10"
 
 MWLEN = "11"

@@ -1,0 +1,79 @@
+Loading speaker turns from reference RTTMs...
+Loading speaker turns from system RTTMs...
+WARNING: No universal evaluation map specified. Approximating from reference and speaker turn extents...
+Trimming reference speaker turns to UEM scoring regions...
+Trimming system speaker turns to UEM scoring regions...
+Checking for overlapping reference speaker turns...
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-04-387, SPEAKER: G00000169
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-11-423, SPEAKER: G00000463
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-11-423, SPEAKER: G00000464
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-11-716, SPEAKER: G00000131
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-100, SPEAKER: G00000185
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-128, SPEAKER: G00000231
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-135, SPEAKER: G00000282
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-135, SPEAKER: G00000283
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-142, SPEAKER: G00000671
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-142, SPEAKER: G00000672
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-151, SPEAKER: G00000045
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-153, SPEAKER: G00000279
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-17, SPEAKER: G00000092
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-3, SPEAKER: G00000284
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-3, SPEAKER: G00000285
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-39, SPEAKER: G00000327
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-56, SPEAKER: G00000533
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-56, SPEAKER: G00000534
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-65, SPEAKER: G00000621
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-65, SPEAKER: G00000622
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-68, SPEAKER: G00000680
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-73, SPEAKER: G00000129
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-75, SPEAKER: G00000391
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-77, SPEAKER: G00000430
+WARNING: Merging overlapping speaker turns. FILE: CTS-CN-F2F-2019-11-15-91, SPEAKER: G00000340
+Checking for overlapping system speaker turns...
+Scoring...
+File                         DER    JER    B3-Precision    B3-Recall    B3-F1    GKT(ref, sys)    GKT(sys, ref)    H(ref|sys)    H(sys|ref)    MI    NMI
+-------------------------  -----  -----  --------------  -----------  -------  ---------------  ---------------  ------------  ------------  ----  -----
+CTS-CN-F2F-2019-11-04-387  43.42  58.46            0.50         0.72     0.59             0.11             0.13          1.24          0.76  0.16   0.14
+CTS-CN-F2F-2019-11-11-193  16.24  14.72            0.78         0.85     0.81             0.65             0.58          0.58          0.38  0.72   0.60
+CTS-CN-F2F-2019-11-11-198  22.78  24.28            0.70         0.73     0.71             0.53             0.48          0.77          0.72  0.64   0.46
+CTS-CN-F2F-2019-11-11-390  64.24  70.75            0.46         0.57     0.51             0.11             0.14          1.29          1.07  0.21   0.15
+CTS-CN-F2F-2019-11-11-423  55.27  53.35            0.71         0.35     0.47             0.18             0.50          0.78          1.85  0.57   0.32
+CTS-CN-F2F-2019-11-11-431  47.87  65.45            0.50         0.58     0.54             0.03             0.03          1.22          1.09  0.05   0.04
+CTS-CN-F2F-2019-11-11-716  21.86  17.06            0.73         0.85     0.78             0.70             0.55          0.66          0.39  0.81   0.61
+CTS-CN-F2F-2019-11-15-100  23.72  18.32            0.77         0.71     0.74             0.55             0.64          0.59          0.89  0.89   0.55
+CTS-CN-F2F-2019-11-15-101  22.19  22.75            0.72         0.75     0.74             0.60             0.58          0.76          0.67  0.80   0.53
+CTS-CN-F2F-2019-11-15-105  50.62  73.74            0.49         0.93     0.64             0.53             0.15          1.18          0.16  0.25   0.33
+CTS-CN-F2F-2019-11-15-121  58.06  67.26            0.54         0.40     0.46             0.04             0.13          1.07          1.56  0.12   0.08
+CTS-CN-F2F-2019-11-15-123  66.21  75.61            0.42         0.80     0.55             0.11             0.09          1.38          0.56  0.12   0.12
+CTS-CN-F2F-2019-11-15-126  11.57  11.46            0.82         0.89     0.85             0.78             0.69          0.52          0.32  0.88   0.68
+CTS-CN-F2F-2019-11-15-128  15.99  18.22            0.76         0.82     0.79             0.66             0.59          0.68          0.50  0.72   0.55
+CTS-CN-F2F-2019-11-15-135  25.94  42.28            0.65         0.81     0.72             0.23             0.21          0.93          0.53  0.20   0.22
+CTS-CN-F2F-2019-11-15-138  22.67  22.70            0.69         0.79     0.74             0.60             0.50          0.82          0.58  0.66   0.49
+CTS-CN-F2F-2019-11-15-142  36.07  36.57            0.58         0.63     0.61             0.39             0.35          1.06          0.94  0.47   0.32
+CTS-CN-F2F-2019-11-15-144  80.06  66.84            0.49         0.39     0.44             0.16             0.21          1.27          1.75  0.27   0.15
+CTS-CN-F2F-2019-11-15-150  25.48  20.32            0.74         0.77     0.76             0.63             0.60          0.63          0.60  0.89   0.59
+CTS-CN-F2F-2019-11-15-151  35.56  46.71            0.56         0.59     0.58             0.25             0.25          1.07          1.01  0.31   0.23
+CTS-CN-F2F-2019-11-15-153  21.96  18.98            0.80         0.69     0.74             0.51             0.65          0.57          0.98  0.77   0.50
+CTS-CN-F2F-2019-11-15-17   67.59  44.06            0.56         0.37     0.45             0.14             0.28          1.11          1.80  0.36   0.20
+CTS-CN-F2F-2019-11-15-26   68.17  57.14            0.64         0.35     0.45             0.13             0.36          0.95          1.86  0.45   0.25
+CTS-CN-F2F-2019-11-15-27   13.96  19.73            0.79         0.84     0.81             0.56             0.50          0.62          0.45  0.49   0.48
+CTS-CN-F2F-2019-11-15-3    32.00  47.04            0.60         0.72     0.65             0.30             0.31          1.01          0.71  0.38   0.31
+CTS-CN-F2F-2019-11-15-37   20.45  17.00            0.76         0.82     0.79             0.69             0.63          0.57          0.45  0.96   0.65
+CTS-CN-F2F-2019-11-15-39    9.25  10.78            0.85         0.87     0.86             0.76             0.73          0.46          0.41  0.83   0.66
+CTS-CN-F2F-2019-11-15-45   39.50  53.29            0.53         0.68     0.60             0.25             0.24          1.16          0.84  0.30   0.24
+CTS-CN-F2F-2019-11-15-52   19.39  24.35            0.74         0.77     0.76             0.52             0.54          0.73          0.61  0.64   0.49
+CTS-CN-F2F-2019-11-15-53   33.35  25.52            0.79         0.55     0.65             0.36             0.63          0.62          1.37  0.73   0.43
+CTS-CN-F2F-2019-11-15-56   13.86  18.44            0.77         0.82     0.79             0.65             0.59          0.66          0.53  0.63   0.52
+CTS-CN-F2F-2019-11-15-65   28.63  30.27            0.64         0.72     0.68             0.47             0.42          0.94          0.74  0.55   0.40
+CTS-CN-F2F-2019-11-15-68   11.42  19.02            0.82         0.88     0.85             0.62             0.57          0.52          0.34  0.55   0.56
+CTS-CN-F2F-2019-11-15-73   17.89  15.75            0.76         0.85     0.80             0.73             0.62          0.62          0.40  0.91   0.64
+CTS-CN-F2F-2019-11-15-75   28.05  24.46            0.80         0.63     0.70             0.45             0.67          0.55          1.05  0.84   0.52
+CTS-CN-F2F-2019-11-15-77   51.68  72.64            0.47         0.73     0.57             0.05             0.02          1.23          0.64  0.03   0.03
+CTS-CN-F2F-2019-11-15-8    17.01  14.67            0.77         0.86     0.82             0.74             0.61          0.58          0.43  0.81   0.62
+CTS-CN-F2F-2019-11-15-81   54.31  49.47            0.53         0.49     0.51             0.13             0.24          1.16          1.38  0.32   0.20
+CTS-CN-F2F-2019-11-15-82   21.59  19.43            0.77         0.73     0.75             0.45             0.52          0.59          0.75  0.60   0.47
+CTS-CN-F2F-2019-11-15-88   14.63  15.41            0.78         0.84     0.81             0.70             0.64          0.61          0.46  0.82   0.60
+CTS-CN-F2F-2019-11-15-9    28.78  37.80            0.63         0.63     0.63             0.41             0.41          0.96          0.96  0.55   0.36
+CTS-CN-F2F-2019-11-15-91   30.66  27.64            0.63         0.79     0.70             0.55             0.40          0.94          0.58  0.56   0.43
+CTS-CN-F2F-2019-11-15-94   62.58  54.43            0.51         0.35     0.41             0.14             0.23          1.22          1.97  0.30   0.16
+*** OVERALL ***            33.01  35.91            0.66         0.70     0.68             0.70             0.66          0.86          0.83  5.93   0.88

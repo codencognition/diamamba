@@ -14,10 +14,6 @@ MODELS_PATH  = "/workspace/models/dr0p15_specaug_on/models"
 EPOCHS = "91-100"
 SUBSAMP = "10"
 
-# MODELS_PATH  = "/workspace/models/ft_callhome_f1800/models"
-# EPOCHS = "441-450"
-# SUBSAMP = "10"
-
 MWLEN = "11"
 COLLAR = "0.25"
 

@@ -14,8 +14,8 @@ RUN_NAME = "model_FT_new"
 # EPOCHS = "91-100"
 # SUBSAMP = "10"
 
-MODELS_PATH  = "/workspace/models/ft_callhome_f1800/models"
-EPOCHS = "141-150"
+MODELS_PATH  = "/workspace/models/ft_callhome_f3600/models"
+EPOCHS = "41-50"
 SUBSAMP = "10"
 
 MWLEN = "11"

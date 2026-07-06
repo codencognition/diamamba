@@ -14,8 +14,8 @@ RUN_NAME = "model_FT"
 # EPOCHS = "91-100"
 # SUBSAMP = "10"
 
-MODELS_PATH  = "/workspace/models/ft_aishell4_f1800/models"
-EPOCHS = "111-120"
+MODELS_PATH  = "/workspace/models/ft_aishell4_f3600/models"
+EPOCHS = "41-50"
 SUBSAMP = "10"
 
 MWLEN = "11"

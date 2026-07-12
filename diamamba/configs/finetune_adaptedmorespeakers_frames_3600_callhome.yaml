@@ -30,8 +30,8 @@ intermediate_loss_frameencoder: True
 intermediate_loss_perceiver: True
 latents2attractors: weighted_average
 log_report_batches_num: 1000
-lr: 1e-5
-max_epochs: 200
+lr: 5e-4
+max_epochs: 50
 model_type: AttractorPerceiver
 n_attractors: 10
 n_blocks_attractors: 3
@@ -41,8 +41,8 @@ n_selfattends_attractors: 2
 n_sa_heads_attractors: 4
 n_xa_heads_attractors: 4
 norm_loss_per_spk: True
-num_frames: 1800
-num_speakers: 8
+num_frames: 3600
+num_speakers: 6
 num_workers: 4
 optimizer: adam
 # output_path: <output directory>
@@ -64,8 +64,6 @@ use_pre_crossattention: True
 
 init_epochs: 91-100
 init_model_path: /workspace/models/dr0p15_specaug_on/models
-train_features_dir: /workspace/benchmarks/aishell4/features_f1800/batchsize1/train
-valid_features_dir: /workspace/benchmarks/aishell4/features_f1800/batchsize1/dev
-# train_features_dir: /root/workspace/mel_features/10_SPEAKERS_maximum_10H/batchsize1/train
-# valid_features_dir: /root/workspace/mel_features/10_SPEAKERS_maximum_10H/batchsize1/dev
-output_path: /workspace/models/ft_aishell4_f1800
+train_features_dir: /workspace/benchmarks/talkbank_callhome/features_f3600/batchsize1/train
+valid_features_dir: /workspace/benchmarks/talkbank_callhome/features_f3600/batchsize1/dev
+output_path: /workspace/models/ft_callhome_f3600

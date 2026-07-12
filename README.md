@@ -547,5 +547,5 @@ Please also consider citing the DiaPer baseline this work builds on:
 
 ## Contact
 
-- Usman Rauf — usmanraufraja@gmail.com
+- Usman Rauf
 - National University of Computer and Emerging Sciences (FAST-NUCES)

@@ -402,9 +402,9 @@ The three-phase protocol, with the data pipeline, feature extraction, and scorin
 
 ## Main results (reported in the paper)
 
-> All figures below are **reported in the paper** (`paper/paper.pdf`). DiaPer figures are reproduced by the authors from Landini et al. (2024). DiaMamba figures are the **median over five seeds**. Δ = DiaMamba − DiaPer (negative is better).
+> All figures below are **reported in the paper**. DiaPer figures are reproduced by the authors from Landini et al. (2024). DiaMamba figures are the **median over five seeds**. Δ = DiaMamba − DiaPer (negative is better).
 
-### DER (%) after in-domain fine-tuning — Table VIII
+### DER (%) after in-domain fine-tuning
 
 | Corpus | Collar | VAD+VBx+OSD | DiaPer | **DiaMamba** | Δ |
 | --- | --- | --- | --- | --- | --- |
@@ -413,7 +413,7 @@ The three-phase protocol, with the data pipeline, feature extraction, and scorin
 | RAMC | 0 | 18.20 | 21.10 | **17.07** | −4.03 |
 | AISHELL-4 | 0 | 15.80 | 41.40 | **32.40** | −9.00 |
 
-### DER (%) without fine-tuning (Phase-2 checkpoint evaluated directly) — Table IX
+### DER (%) without fine-tuning (Phase-2 checkpoint evaluated directly)
 
 | Corpus | Collar | DiaPer | **DiaMamba** | Δ |
 | --- | --- | --- | --- | --- |
@@ -423,7 +423,7 @@ The three-phase protocol, with the data pipeline, feature extraction, and scorin
 | RAMC | 0 | 38.10 | **33.01** | −5.09 |
 | AISHELL-4 | 0 | 48.20 | **45.76** | −2.44 |
 
-### Statistical significance of the fine-tuned gains — Table X
+### Statistical significance of the fine-tuned gains
 
 | Corpus (FT) | DiaMamba (mean ± std, %) | DiaPer (%) | ΔDER | 95% CI | p | Cohen's d |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -431,7 +431,7 @@ The three-phase protocol, with the data pipeline, feature extraction, and scorin
 | RAMC | 17.22 ± 0.59 | 21.10 | −3.88 | [−4.61, −3.15] | 1.2×10⁻⁴ | −6.58 |
 | AISHELL-4 | 32.70 ± 2.12 | 41.40 | −8.70 | [−11.33, −6.07] | 7.8×10⁻⁴ | −4.10 |
 
-### Parameter count and frame-encoder complexity — Table XI
+### Parameter count and frame-encoder complexity
 
 | Model | Params (M) | Time | Memory |
 | --- | --- | --- | --- |
@@ -440,7 +440,7 @@ The three-phase protocol, with the data pipeline, feature extraction, and scorin
 
 **Efficiency highlights (reported):** at the longest tested recording (49 min), DiaMamba uses ≈**86.5 % fewer FLOPs** (277 vs 2,051 GFLOPs), up to ≈**116× lower peak GPU memory** (0.60 GB vs 69.4 GB), and stays below 1 GB of VRAM across all tested lengths; GPU inference latency is near-constant (~0.23 s), crossing DiaPer near 30 min (≈1.7× faster on long recordings).
 
-### Encoder-design ablation (Phase-1, 2-speaker simulated dev set) — Tables IV & VI
+### Encoder-design ablation (Phase-1, 2-speaker simulated dev set)
 
 | Configuration | Best DER (%) |
 | --- | --- |

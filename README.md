@@ -463,7 +463,7 @@ The three-phase protocol, with the data pipeline, feature extraction, and scorin
 
 Pretrained checkpoints ship in [`models/`](models/). Each folder holds **10 consecutive epoch checkpoints** intended to be averaged at inference via `--epochs <a-b>`.
 
-| Folder | Stage | `--epochs` range |
+| Folder | Stage | `--epochs` |
 | --- | --- | --- |
 | `models/simulatedConversationLibriSpeechTrain2Spks/` | Phase 1 (2-speaker pretraining) | `191-200` |
 | `models/simulatedConversationLibriSpeechAdapt10Spks/` | Phase 2 (1–10-speaker adaptation) | `91-100` |

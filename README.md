@@ -1,6 +1,6 @@
 # DiaMamba
 
-**End-to-end neural speaker diarization with a bidirectional-Mamba frame encoder and a Perceiver-based attractor decoder.**
+**Bidirectional Mamba for Efficient End-to-End Neural Speaker Diarization.**
 
 DiaMamba is an encoder–decoder end-to-end neural diarization (EEND) system that uses a stack of **Bidirectional Mamba (BiMamba)** layers to encode frame embeddings and a Perceiver architecture for attractor-based decoding, giving linear-complexity temporal modeling while retaining the attention-like properties of a transformer-based EEND system. This repository contains the reference implementation, configuration files, and pretrained checkpoints accompanying the paper.
 

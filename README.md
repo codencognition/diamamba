@@ -525,7 +525,7 @@ If you use DiaMamba, please cite the paper:
   title   = {DiaMamba: Bidirectional Mamba for Efficient End-to-End Neural Speaker Diarization},
   author  = {Rauf, Usman and Hussain, Basharat and Islam, Muhammad and Nawaz, Shah},
   year    = {2026},
-  note    = {[To add journal/conference, volume, pages, DOI, or arXiv ID]}
+  note    = {[Will add journal/conference, volume, pages, DOI, or arXiv ID]}
 }
 ```
 

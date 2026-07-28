@@ -521,12 +521,11 @@ This project is released under the **MIT License**. See [`LICENSE`](LICENSE). Th
 If you use DiaMamba, please cite the paper:
 
 ```bibtex
-@article{rauf_diamamba,
-  title   = {DiaMamba: End-to-End Neural Diarization with Bidirectional Mamba
-             Encoder and Perceiver Attractor Decoder},
-  author  = {Rauf, Usman and Hussain, Basharat},
+@article{rauf2026diamamba,
+  title   = {DiaMamba: Bidirectional Mamba for Efficient End-to-End Neural Speaker Diarization},
+  author  = {Rauf, Usman and Hussain, Basharat and Islam, Muhammad and Nawaz, Shah},
   year    = {2026},
-  note    = {[TODO: add journal/conference, volume, pages, DOI, or arXiv ID]}
+  note    = {[To add journal/conference, volume, pages, DOI, or arXiv ID]}
 }
 ```
 
